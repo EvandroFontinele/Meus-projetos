@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+.cabecalho {
+    background-color: #941717ec;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    height: 64px;
+}
+
+.cabecalho-imagem {
+    margin: 8px;
+    border-color: #fff;
+}
+
+.cabecalho-links {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 20px;
+    margin: 16px;
+}
+
+.cabecalho-links:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
