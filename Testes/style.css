@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'lemonmilk-bold';
+    src: url(fonts/LEMONMILK-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'lemonmilk-light';
+    src: url(fonts/LEMONMILK-Light.otf) format('opentype');
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4d4d4d;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-family: 'i';
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: block;
+    text-align: right;
+}
+
+header a {
+    display: inline-block;
+    align-items: center;
+    color: #000;
+    font-family: 'lemonmilk-light';
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav > a:hover {
+    color: #FFF;
+    background-color: #acacac2d;
+    transition-duration: 0.3s;
+}
+
+section h1 {
+    font-family: 'lemonmilk-bold';
+}
+
+section p {
+    font-family: 'lemonmilk-light';
+}
+
+section a {
+    font-family: Arial, Helvetica, sans-serif;
+}
