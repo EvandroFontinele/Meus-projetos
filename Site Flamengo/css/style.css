@@ -5,14 +5,9 @@
     background-color: #941717ec;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 15px 0px 15px 0px;
     align-items: center;
-    height: 64px;
-}
-
-.cabecalho-imagem {
-    margin: 8px;
-    border-color: #fff;
+    height: 60px;
 }
 
 .cabecalho-links {
@@ -23,8 +18,29 @@
     font-weight: 300;
     font-size: 20px;
     margin: 16px;
+    transition: 0.3s ease-in-out;
 }
 
 .cabecalho-links:hover {
     color: rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+
+nav a {
+    position: relative;
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
 }
