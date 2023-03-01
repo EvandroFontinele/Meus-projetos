@@ -44,3 +44,7 @@ nav a::after {
 nav a:hover::after{
     width: 100%;
 }
+
+body {
+    background-image: url();
+}
