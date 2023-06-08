@@ -129,8 +129,8 @@ nav a:hover::after{
 }
 
 .section2-links:hover {
-    color: #000;
-    background-color: rgb(223, 223, 223);
+    color: #FFF;
+    background-color: black;
 }
 
 .footer {
